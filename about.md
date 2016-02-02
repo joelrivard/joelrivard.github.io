@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Joël Rivard is a part-time student in his 4th year of the Masters of Information Studies at the University of Ottawa. He has an honours degree in Geomatics with a minor in Environmental Studies. While not in school, Joel works as a Cartographic Specialist with the Maps, Data & Government Information Centre (MADGIC) at the Carleton University Library.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[joel.rivard@carleton.ca](mailto:joel.rivard@carleton.ca)
