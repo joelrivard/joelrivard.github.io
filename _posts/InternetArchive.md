@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Internet Archive
+title: "2016-02-01-Internet Archive"
+published: true
 ---
+
 
 I learned some of the basics of python over 5 years ago in the context of using it in a Geographic Information System (GIS). At the time, I learned it while using a windows-based computer. At the time, I was told that python was a powerful programming language, but since we only used it within the confines of a GIS , I had never truly discovered its usefulness outside of this world...until now, through the programming historian. As I look through these examples through the lens of an information professional, I can clearly see the advantages of being able to search through various collections in internet archive with the use of a programming language.  With the use of some of these python modules and scripts, information professionals can extract various bits of information from collections held in Internet Archive, quickly and easily (well, after the setup is complete that is).
 
