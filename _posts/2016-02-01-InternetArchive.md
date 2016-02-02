@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2016-02-01-Internet Archive"
+title: "Data Mining the **Internet Archive**"
 published: true
 ---
 
