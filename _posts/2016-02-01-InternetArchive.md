@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Mining the **Internet Archive**"
+title: "Data Mining the Internet Archive"
 published: true
 ---
 
