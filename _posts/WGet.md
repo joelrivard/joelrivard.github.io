@@ -1,7 +1,9 @@
 ---
 layout: post
-title: WGet
+title: "2016-02-01-WGet"
+published: true
 ---
+
 
 This little awesome tool is pretty great for quickly downloading various bits of the internet for research, preservation or archival purposes. As an information professional, the initial python tools and modules helped me identify and make my shopping list of stuff to download, while the wget tool allows me to download content from websites. This has the capability of being a huge time saver for information professionals and or researchers looking to download many files for their research or collection. This would have been extremely useful to use a few years ago (and it may have well be used by individuals) when several federal government departments changed their websites and various bits of information disappeared. There are few ways in which this can be used to download a many files.
 
