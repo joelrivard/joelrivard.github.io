@@ -3,7 +3,14 @@ layout: post
 title: Open Notebook - Joel Rivard
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+The following is my open notebook for the class
+
+### HIST 5702w - Digital History Methods as Public History Performance
+
+The following are the open notebook topics for the class. Each notebook entry was created in markdown and then converted to an html page using pandoc. The notebook is served using github. The following are the topics of the notebook:
+
+* Automated downloading using **WGET**
+* Datamining the **Internet Archive**
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
