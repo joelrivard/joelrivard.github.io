@@ -3,7 +3,7 @@ layout: post
 title: Open Notebook - Joel Rivard
 ---
 
-The following is my open notebook for the class
+The following is my open notebook for HIST 5702w
 
 ### HIST 5702w - Digital History Methods as Public History Performance
 
