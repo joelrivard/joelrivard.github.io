@@ -5,13 +5,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      <h2 id="open-notebook---joel-rivard">Open Notebook - Joel Rivard</h2>
+<h2 id="open-notebook---joel-rivard">Open Notebook - Joel Rivard</h2>
 <p>The following is my open notebook for the class</p>
 <h3 id="hist-5702w---digital-history-methods-as-public-history-performance">HIST 5702w - Digital History Methods as Public History Performance</h3>
 <p>The following are the open notebook topics for the class. Each notebook entry was created in markdown and then converted to an html page using pandoc. The notebook is served using github. The following are the topics of the notebook:</p>
@@ -19,6 +13,12 @@ layout: default
 <li>Automated downloading using <strong>WGET</strong></li>
 <li>Datamining the <strong>Internet Archive</strong></li>
 </ul>
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
