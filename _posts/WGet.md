@@ -1,0 +1,21 @@
+## Wget
+
+This little awesome tool is pretty great for quickly downloading various bits of the internet for research, preservation or archival purposes. As an information professional, the initial python tools and modules helped me identify and make my shopping list of stuff to download, while the wget tool allows me to download content from websites. This has the capability of being a huge time saver for information professionals and or researchers looking to download many files for their research or collection. This would have been extremely useful to use a few years ago (and it may have well be used by individuals) when several federal government departments changed their websites and various bits of information disappeared. There are few ways in which this can be used to download a many files.
+
+* Identify a pattern in the links where only the last number changes and sequentially change that number to ensure that you download each file in a specific web directory. This can be easily done using a spreadsheet. Below is an example:
+
+  * www.library.carleton.ca/maps/image1.jpg
+  * www.library.carleton.ca/maps/image2.jpg
+  * www.library.carleton.ca/maps/image3.jpg
+  * www.library.carleton.ca/maps/image4.jpg
+  * ………
+
+Identifying that a website has a structure and proper information architecture is important and allows us to realize how important it is to properly structure websites.
+
+* Extracting a shopping list of links from a python scripts (see programmming historian guide) or a link scrapper. Take these links and extract just the links by using various text manipulation techniques in a spreadsheet or other tools.
+  * www.library.carleton.ca/maps/image.1jpg
+  * www.carleton.ca/history/document5.pdf
+  * www.carleton.ca/geography/MapofCanada.jpg
+  * …..
+
+One note of caution that the programming historian brings up is to ensure that users follow proper internet etiquette when downloading large amounts of files from the server. Users should set the download speed and the time between requests so as not to overload the server that is hosting the content.
