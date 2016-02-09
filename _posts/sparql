@@ -1,0 +1,13 @@
+## SPARQL
+
+This tutorial looked at [Linked Open Data and SPARQL](http://programminghistorian.org/lessons/graph-databases-and-SPARQL/ "SPARL"). Linked open data (LOD) allows the connection of data through relationships, where as SPARQL is the language that is used to access or search linked open data within a collection or a series of collections.
+
+>The tutorial clearly explains the various components of linked open data and how the relationships interact in the database. This reminded me a lot of [Resource Description and Access (RDA)](https://www.oclc.org/rda/about.en.html "RDA"), a new cataloguing standard for library collections. Both have the goal of harnessing linked open data and they do it in similar ways.
+
+After explaining the complexities of this type of database, the tutorial allows the user to use SPARQL to access some information from the British Museum collection. After playing around with SPARQL a bit, it became evident that the researcher needs to already have an idea of what he/she is looking for when conducting searches. If they don't, they'll have to spend a bit of time trying to figure out where to search for their specific materials of interest.
+
+Some collecting also go a step further as they allow their collections to be linked with other collections. An example that is given in the tutorial searches through the [Europeana Collection](http://europeana.ontotext.com/sparql/ "Europeana") and allows the use of a gazeteer such as [GeoNames](http://sws.geonames.org/ "GeoNames") to extract all of cities for a particular country and return those results to your search in the Europeana Collection for additional materials that originate from those particular cities. This linking of various databases using linked open data was great as it demonstrated the power of what linked open data can do.
+
+Below are a few comments about using linked open data through the use of the SPARQL language.
+  1. the SPARQL language can be seen as a barrier to novice researchers that aren't familiar with this new method of searching. In most cases, a user interface could be a better way of conducting searches from a users perspective.
+  2. Ontologies from various databases need to follow the same standards. For example, we have to ensure that the spelling of certain cities is the same in both databases or both databases need to use the same language. If ontologies are slightly different, the use of [thesaurus](http://vocab.rdc.uottawa.ca/tematres-en/vocab/ "Thesaurus from ESIS") may be something that could be used? The following link is an example of such a thesaurus.
