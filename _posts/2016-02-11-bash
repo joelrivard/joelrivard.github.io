@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Introduction to bash and unix command lines"
+published: true
+---
+
+This tutorial introduced us to various command line commands that are common in windows or OSx environment.
+The writers do an excellent job of introducing and explaining the various commands that can be used with the command line.
+
+Having previous experience with command line tools windows, this was a really good revision and I picked up on a few new commands that will come handy in the future.
+  1. Using Vim within bash to look read/write documents
+  2. Using the commands "head" and "trail" is great to read the first or last lines of a really long document
+
+Having gone through this tutorial, I now hope to use the command line tools more often. To aid with this (and practice making a table with markdown), I thought I'd replicate the wonderful overview of commands that was given to us at the end by the authors:
+
+| Command | What It Does |
+| --------- | --------- |
+| pwd | Prints the 'present working directory' letting you know where you are|
+| ls | Lists the files in the current directory|
+| man * | Lists the manual for the command, substituted for the *|
+| cd * |	Changes the current directory to *|
+| mkdir * |	Makes a directory named * |
+| open or explorer | On OS X, open followed by a file opens it; in Windows, the command explorer followed by a file name does the same thing.|
+| cat * |	cat is a versatile command. It will read a file to you if you substitute a file for *, but can also be used to combine files. |
+| head * |	Displays the first ten lines of * |
+| tail * |	Displays the last ten lines of * |
+| mv |	Moves a file |
+| cp |	Copies a file |
+| rm | Deletes a file |
+| vim | 	Opens up the vim document editor.|
+| grep | Global regular expression print
+
+  1. -c allows users to count the number of time a specific word.
+  2. -i retrieves both upper and lower cases. Can be used with the -c (ic) or -v (ic)
+  3. -v retrieves items that don't include the specific word.|
