@@ -1,0 +1,117 @@
+---
+layout: post
+title: "Data Visualization with Online Maps"
+published: true
+---
+
+To experiment using various online mapping tools, it was decided that I would use the same dataset for each online map that I produced. The dataset used was a combined dataset from the csv files from the Federal Heritage Designations database.
+http://open.canada.ca/data/en/dataset/b8c61621-e541-4e4c-8654-48152519a30a
+
+A column was added to the csv file to indicate the type of heritage site (historic sites, historic persons, historic events). There are a little over 2,000 records. I cleaned-up the dataset a bit to remove any extra field. This dataset has street addresses (very messy, didn't clean it up), cities, province and lat & longitude - so we have lots of geographic markers to map the data, all at various geographic scales. Latitude and longitude is typically the easiest to use, depending on the platform and the granularity that the user is seeking.
+
+CartoDB
+--------
+
+The first mapping tool used is called [CartoDB](https://cartodb.com/ "CartoDB"). Users need to create a free account to make a in map in CartoDB. Users also have the option to purchase a premium verison of CartoDB that allows them to do more advanced mapping. The following maps were created using CartoDB.
+
+**CartoDB Map:HeatMap with Nokia basemap (lat, long mapping)**
+
+<iframe width="100%" height="520" frameborder="0" src="https://geojoel.cartodb.com/viz/169a2eca-e147-11e5-a6c2-0e31c9be1b51/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+**CartoDB Map: Categories by Type with Staman basemap (lat, long mapping)**
+
+<iframe width="100%" height="520" frameborder="0" src="https://geojoel.cartodb.com/viz/a93f43aa-e147-11e5-8a29-0e787de82d45/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+For more information on using CartoDB, check out this tutorial http://cartodb.github.io/training/introductory/kqed.html
+
+Google Maps
+--------------
+
+Using [Google My Maps] (https://www.google.com/mymaps/ "Google My Maps"), I uploaded and created a similar map. There isn't as many options for basemap and there aren't as many tools to customize our map, but all in all, still a decent looking map. I used latitude and longitude to map the data.
+
+<iframe width="100%" height="520" frameborder="0" src="https://www.google.com/maps/d/edit?mid=z5E6qmJnGmOU.kmiYcaTt1E8A&usp=sharing" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+ArcGIS Online (created with public account)
+-----------------------------
+
+The next tool attempted was the [ArcGIS Online Public Account] (http://www.arcgis.com/home/ "ArcGIS Online Public Account"). I've signed-in using my gmail account was able to create a map comparable to what was created using CartoDB. The map was created using the latitude and longitude fields. Users can easily map the points by categories. Users can also customize the info pop-up box and select the desired fields to show up in the pop-up box. There are also various templates or story maps templates that can be selected to create the map. Below is the example that I have with the use of point data.
+
+<iframe width="100%" height="520" frameborder="0" src="http://www.arcgis.com/apps/SimpleViewer/index.html?appid=73f2a55ec18847759722f3a8b08812b5" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+ArcGIS Online (create with Carleton account)
+------------------------------------------------------
+
+The following map was created using ArcGIS Online, which allows a whole bunch more functionality, but typically at a cost. There is a free version of the software, but which has limitations. It's also typically best to use ArcGIS desktop to publish maps to ArcGIS Online. There are ways to get around that, but for the purposes of showing various types of online mapping tools, we won't get into that. The following is an example of an online map that was created for the recent Canadian election. The swipe tool allows you to swipe and compare the political affiliation of the newly elected member of parliament (MP) with the previous MP.
+
+<iframe width="100%" height="520" frameborder="0" src="http://carleton-u.maps.arcgis.com/apps/PublicInformation/index.html?appid=1883dbe915b3462089c3b8a4ae79ff32" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+Honourable Mention?!?
+------------------
+I also tried the following mapping tools, but they proved either too complex for basic mapping or just didn't work. Some would be worth further exploration if users wish to have more complex functionality.
+
+Bing Maps
+----------
+
+Let's first start with Google's main search competitor, Bing. At one point, Bing would allow users to create customized interactive maps, with the use of its "My Places" section, that being equivalent to Google's "MyMaps". Here was a tutorial that would allow users to go from [Google to Bing](https://blogs.bing.com/maps/2015/05/19/migrating-my-map-from-google-to-bing/ "Google MyMaps to Bing"). After a bit more digging, it appears as though Microsoft is focusing on [creating maps for Bing with the use of their standard desktop products.](https://blogs.msdn.microsoft.com/bingdevcenter/2014/07/15/4-easy-ways-to-visualize-excel-data-on-bing-maps/ "Visualize data on Bing Maps") So, having said that, we'll move on to our next product.
+
+WorldMap
+-----------
+
+Developed by Harvard University, this product has tremendous potential, but it requires that users import layers that are already in a GIS format (shapefile or tiff image). For this reason, I've excluded it since users can't easily plot latitude and longitude data. Users who are familiar with GIS layers can explore this product. WorldMap is also a decent product for georeferencing scanned maps with the use of their MapWarper application.
+
+
+Mapbox
+-----------
+
+Mapbox is one of those tools that is more meant for those familiar with coding. There are a tone of unique basemaps to play with and it allows users to import their data as latitude and longitude, where users have to set the title, description, colour and feature symbol of the point. For the free version of Mapbox, it seems to limit the import of 2,000 points using the latitude and longitude geographic markers. If you're looking for a truly customized map and you're more familiar with graphic design, this might be a good place to start.
+
+
+Geocoding
+-----------
+
+If you're data doesn't already come with latitude and longitude, feel free to use some these tools below to obtain your coordinates. All of the tools below will require you to use one of the following api.
+1. [Bing Maps API](https://msdn.microsoft.com/en-us/library/ff701713.aspx "Bing Maps API")
+2. [Google Maps API](https://developers.google.com/maps/ "Google Maps API")
+3. [MapQuest Open API](http://open.mapquestapi.com/geocoding/ "MapQuest Open API")
+
+Please explore the APIs to have a better understand of their limits (how many points it can geocode). The one that I prefer (as of March 2016) is the bing maps API.
+
+Online Tools
+==============
+Online tools should be used to geocode up to a few thousands only. If you need to geocode more points, please see the desktop methods below.
+
+**GPS Visualizer**
+>GPS Visualizer requires that your data for the address be in separate fields (address, city, province or state, country, postcode).
+
+If you're looking to do simple geocoding (using a postal code, city, province/state, country), try using the following (http://www.gpsvisualizer.com/convert_input). You won't need an api. It might take a bit of time to do. You'll need to have the following [field names](http://www.gpsvisualizer.com/tutorials/waypoints.html#summary "GPS Visualizer proper field names")
+
+If you're looking to geocode data at the address level (1125 colonel by drive), then you'll have to use the following method - http://www.gpsvisualizer.com/geocoder/. Here, you can geocode with the use of either of the 3 api (as mentioned above) and you'll be copying and pasting the data. This typically works for when users have up to 2,000 points.
+
+**Google Fusion Tables**
+
+Google Fusion tables can geocode by Town/City, province or countryLoad data in Google Fusion tables (https://www.google.com/fusiontables/data?dsrcid=implicit)
+Google Fusion tables can geocode by postal code, town/city, province or country. It will take the data and map it for you on a google maps. However, it doesn't provide the actualy latitude and longitude automatically.
+
+
+**OpenRefine**
+Download and install OpenRefine. Open up the software and ensure that your address is all in the same field (1125 colonel by drive, ottawa, ontario, Canada). Users will be required to create a new column and using Json, extract the latitude and longitude using either the Google Maps, Bing Maps or Mapquest api to do your geocoding (see above links). The following [OpenRefine to Geocode your data tutorial](https://opensas.wordpress.com/2013/06/30/using-openrefine-to-geocode-your-data-using-google-and-openstreetmap-api/ "OpenRefine to Geocode your data") explains this process. SP: I wasn't able to make this work, yet :)
+
+**Google Spreadsheets**
+Users can also try using google spreadsheets to do some geocoding. Try the following instructions and macros to get the latitude and longitude of data.
+>
+1. In Google Sheets, go to >Tools>Script Editor
+2. Copy the contents of the [script](https://github.com/nuket/google-sheets-geocoding-macro/blob/master/Code.gs "script") into the script editor (replace all contents)
+3. In the script editor, go to > Publish > test as add-on. Select the sheet in which you want to use this script
+If done correctly, you’ll now have a ‘Macros’ tab in the Spreadsheet menu
+Highlight the location, latitude and longitude columns for all rows that you want to geocode (location should have information entered, latitude and longitude should be empty
+Run the Macro script - unless there are problems, the lat/long fields should propagate.
+
+**Geocoding with QGIS**
+
+This is a desktop solution when you have over 2,000 points to geocode. Again, you'll be using the same 3 APIs as mentioned above (Bing, Google and MapQuest) to do the geocoding. As there is already wonderful documentation on this, please follow these instructions (https://www.gislounge.com/how-to-geocode-addresses-using-qgis/
+
+Remember that each geocoding method has its limits and different levels of accuracy. Explore using all 3 geocoding APIs.
