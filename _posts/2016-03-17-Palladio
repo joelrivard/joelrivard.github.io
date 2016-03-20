@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Palladio"
+published: true
+---
+
+The tutorial that we did for Palladio was really interesting and extremely easy to follow. It allowed me to get a great handle on what can and can't do. Palladio is an extremely useful tool to visualize and interact with your data to visualize patterns in your structured data. This, of course, requires that you're data is structured, where specific patterns can be visualized and explored. Depending on what you have as part of your data, there are various tools that users can harness to explore their data.
+
+**Graphs**
+
+These graphs allow grouping of various elements to help users perform analysis. While doing any form of research, this tool could be useful as it looks at the relations between attributes, space and time. As useful as this tool is, I consider it more as a tool to help users interpret their data (visually) and less as a visualizing tool since users can only export as static images (no other export options). There are also no other analytic tools available.
+
+**Maps**
+
+Obviously, the tools for mapping were of great interest to me. Palladio can easily show analysis that I've typically done in a sophisticated GIS software. However, the advantage of using Palladio is that users don't need to learn the GIS lingo, learn to use the software and still spend more time doing the analysis. The analysis done using Palladio took little to no time to complete and is extremely easy to use. I was impressed on how quickly users can change some the facets of the data for quick analysis - something that definitely can't easily be done in standard GIS. 
+
+**Gallery**
+
+When your data links to any form of imagery, this is a neat feature to use. The gallery allows users to visualize the imagery in your tabular data and to sort and search your data using the various facets. Like the tutorial showed us, I find that this type of use would be great when users are using information such as an index to a large database. Users could use the information from the tabular index to visualize and search through to find relevant information for your research.
+
+To sum up, Palladio is a great tool for data exploration, but where it lacks is in its ability to allow users to go one step further and visualize and export their visualizations for future use. 
