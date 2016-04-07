@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Exporting surface model to stl"
+published: true
+---
+The following will describe a workflow that was used to create a 3D model ready for printing on a 3D printer.
+The input data can be points (x,y,z values), lines (contours) or a digital elevation model (DEM). DEMs can come <a href="https://library.carleton.ca/help/dem-formats" target="_blank">in various formats.</a>
+
+In this example, the first step we'll be doing is creating our raster surface from a point file.
+
+1. Take a x,y,z csv file and display it in a GIS. You can either do this in ArcMap, QGIS, Global Mapper or any other GIS. In this particular case, I used ArcMap since I'm most familiar with it. In this particular case, I was looking to create a 3D model from data of images of bone trade - hue (x), brightness (y), saturation (z).
+
+![Step 1](https://github.com/joelrivard/joelrivard.github.io/blob/master/images/csv_image.png"Step 1")
+
+2. This is what the display of points looks like in QGIS. QGIS asked which coordinate system to display the data, so I chose WGS84.
+
+![Step 2](https://github.com/joelrivard/joelrivard.github.io/blob/master/images/csv_points.png"Step 2")
+
+3. For some odd reason, I couldn't properly convert the points to a raster surface in Global Mapper. As this is a new software version for me, I hope to find out if its doable. So, I decided to create the surface model using ArcMap. In the near future, I hope to figure how to do this in Global Mapper properly.
+
+4. In ArcMap, I went to ArcToolbox > Spatial Analyst Tools > Interpolation > Natural Neighbor. Keep in mind that any of the interpolation tools could be used (IDW, Kriging, Spline). For this particular test, I used Natural Neighbor. Save this file as a .bil file.
+
+5. Once the raster surface was created, I opened it in Global Mapper. This is what it looked like in 2D view and then in 3D view.
+
+![Step 3](https://github.com/joelrivard/joelrivard.github.io/blob/master/images/csv_raster.png"Step 3")
+
+6. Once it's opened, go to File > Export > Export 3D format...
+
+![Step 4](https://github.com/joelrivard/joelrivard.github.io/blob/master/images/csv_dialog1.png"Step 4")
+
+7. Then choose stl format and fill in the proper fields for printing.
+
+![Step 5](https://github.com/joelrivard/joelrivard.github.io/blob/master/images/csv_dialog2.png"Step 5")
+
+8. The exported model was then opened in Makerbot software where it was re-scaled and then sent to the printer. It is now sitting in the queue waiting to be printed. Once its printed, I can update these notes describing the final product.
