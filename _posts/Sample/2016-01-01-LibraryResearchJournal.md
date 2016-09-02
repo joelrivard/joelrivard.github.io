@@ -2,6 +2,7 @@
 layout: post
 title: "Library Research Journals"
 published: true
+categories: sample
 ---
 
 The following illustrates various research journals in the Information Science profession. When doing research, these research journals are invaluable in the research process.
@@ -12,6 +13,6 @@ The following illustrates various research journals in the Information Science p
 
 [Journal of Documentation](http://catalogue.library.carleton.ca/record=b1002208 "Journal of Documentation")
 
-[Journal of the Association for Information Science and Technology (JASIST)](http://catalogue.library.carleton.ca/record=b2009992 "JASIST") 
+[Journal of the Association for Information Science and Technology (JASIST)](http://catalogue.library.carleton.ca/record=b2009992 "JASIST")
 
 [Library and Information Science Research](http://catalogue.library.carleton.ca/record=b2025972 "LISR")
