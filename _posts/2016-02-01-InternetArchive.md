@@ -2,6 +2,8 @@
 layout: post
 title: "Data Mining the Internet Archive"
 published: true
+category: Dev
+tags: [web, jekyll]
 ---
 
 
