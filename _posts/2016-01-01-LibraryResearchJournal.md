@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: category
 title: "Library Research Journals"
 published: true
 categories: sample
