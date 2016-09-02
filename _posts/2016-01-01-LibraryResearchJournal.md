@@ -2,6 +2,8 @@
 layout: post
 title: "Library Research Journals"
 published: true
+categories: aws
+tags: aws2
 ---
 
 The following illustrates various research journals in the Information Science profession. When doing research, these research journals are invaluable in the research process.

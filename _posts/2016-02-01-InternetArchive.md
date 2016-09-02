@@ -1,7 +1,9 @@
----
+﻿---
 layout: post
 title: "Data Mining the Internet Archive"
 published: true
+categories: aws
+tags: aws2
 ---
 
 
