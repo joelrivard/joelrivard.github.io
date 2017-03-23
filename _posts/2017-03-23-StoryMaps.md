@@ -15,6 +15,7 @@ The following will give detailed instructions on how to setup your gigapixel ima
 5. Once the image is open, click on **Image** > **Image Properties**   We're looking at a minimum 5000 pixels on both the width and the height. The higher the resolution, the better.
 
 ![GIMP checking image resolution](/images/gimp1.png "GIMP checking image resolution")
+
 6. **Write down the Image Resolution.** In this case, it's **5100 x 3300 pixels**
 
 Now that we have our image resolution, we'll need to create tiles at various zoom levels from this large image, so that it loads faster in StoryMap js. This is the same method that is used in Google Maps. In this example, we'll use zoomify to create these images.
