@@ -38,6 +38,7 @@ Now that we have our image resolution, we'll need to create tiles at various zoo
 
 ![Contents of Export](/images/zoomify3.png "Export of Zoomify")
 
+
 11. Next step is to upload the contents within the folder to a web server. Make sure you copy both folders and the **ImageProperties.xml** in the folder. Find a webserver that you can have a URL to use for the StoryMap js application.
 
 12. The last step is to setup StoryMap Js to use the gigapixel image as the base layer for your StoryMap.
