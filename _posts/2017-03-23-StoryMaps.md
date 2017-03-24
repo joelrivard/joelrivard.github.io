@@ -31,6 +31,8 @@ Now that we have our image resolution, we'll need to create tiles at various zoo
 9. Double click on the **Zoomify Free Converter.exe**. This should take you through the process of creating zoomify images from your gigapixel image. This is done in two steps.
   1. Set the output directory of the files. This will create hundreds of small files.
   2. Open the high resolution image. Once you open it, the **zoomifying** of the images will begin.
+  
+![Zoomify Image Settings](/images/zoomify2.png "Zoomify Image Settings")  
 
 10. Once complete (should take a maximum of a couple of minutes, depending on the file size of the original high resolution image). This is what the directory structure should look like. Again, depending on the size of your original high resolution image, you could have additional folders.
 
