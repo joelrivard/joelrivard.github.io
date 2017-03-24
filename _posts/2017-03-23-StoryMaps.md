@@ -6,7 +6,7 @@ categories: aws
 tags: aws2
 ---
 
-The following will give detailed instructions on how to setup your gigapixel image for use in StoryMap js. The use of the gigapixel in storymap js allows the user to take any high resolution image and use it as a background image to tell your story. When we say high resolution, we typically mean a minimum of 5000 pixels on either the width and the height. Below are the steps taken to achieve this. The steps below also use free open source tools.
+The following will give detailed instructions on how to setup your gigapixel image for use in [StoryMap js](https://storymap.knightlab.com/ "StoryMaps js"). The use of the gigapixel in storymap js allows the user to take any high resolution image and use it as a background image to tell your story. When we say high resolution, we typically mean a minimum of 5000 pixels on either the width and the height. Below are the steps taken to achieve this. The steps below also use free open source tools.
 
 1. Download, export, find or acquire an image that has a high resolution.
 2. On your computer, find the GIMP application. If you don't have GIMP, visit the [GIMP website](https://www.gimp.org/ "GIMP website") for downloading and installation instructions.
