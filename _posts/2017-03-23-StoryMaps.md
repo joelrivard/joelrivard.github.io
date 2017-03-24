@@ -22,11 +22,11 @@ Now that we have our image resolution, we'll need to create tiles at various zoo
 
 7. Go to the [Free Zoomify Website](http://www.zoomify.com/free.htm "Free Zoomify Website") to download the application.
 
-![Zoomify Download](/images/zoomify1.png"Zoomify Download")
+![Zoomify Download](/images/zoomify1.png "Zoomify Download")
 
 8. Once downloaded, unzip/extract the file. The contents should look like this.
 
-![Contents of Zoomify](/images/contents.png"Contents of Zoomify")
+![Contents of Zoomify](/images/contents.png "Contents of Zoomify")
 
 9. Double click on the **Zoomify Free Converter.exe**. This should take you through the process of creating zoomify images from your gigapixel image. This is done in two steps.
   1. Set the output directory of the files. This will create hundreds of small files.
