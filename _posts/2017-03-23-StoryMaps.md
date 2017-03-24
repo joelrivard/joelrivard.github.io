@@ -12,7 +12,7 @@ The following will give detailed instructions on how to setup your gigapixel ima
 2. On your computer, find the GIMP application. If you don't have GIMP, visit the [GIMP website](https://www.gimp.org/ "GIMP website") for downloading and installation instructions.
 3. Once installed/found, open GIMP.
 4. Click on **File** > **Open...** and navigate to your image to open in GIMP.
-5. Once the image is open, click on **Image** > **Image Properties**   We're looking at a minimum 5000 pixels on both the width and the height. The higher the resolution, the better.
+5. Once the image is open, click on **Image** > **Image Properties**   We're looking at a minimum 5000 pixels on either the width and the height. The higher the resolution, the better!!
 
 ![GIMP checking image resolution](/images/gimp1.png "GIMP checking image resolution")
 
